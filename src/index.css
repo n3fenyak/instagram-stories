@@ -30,6 +30,7 @@ body {
   margin-left: 2px;
 }
 
+.timeline-chunk-active>.timeline-chunk-inner,
 .timeline-chunk-active~.timeline-chunk>.timeline-chunk-inner {
   width: 0;
 }
@@ -41,7 +42,7 @@ body {
   background-color: #fff;
 }
 
-.player-content {
+.player-content-wrapper {
   position: relative;
 }
 
